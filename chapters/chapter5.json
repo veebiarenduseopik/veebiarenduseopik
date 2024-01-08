@@ -1,0 +1,10 @@
+{
+    "chapter5-1": {
+      "title": "5.1 Ülesanne",
+      "content": "<h1>5.1 Ülesanne</h1> <p>Liigume nüüd meie tunni praktilise poole juurde - omandatud teadmisi kasutades, peame tegema veebilehe kulinaarsete retseptidega. Valmis veebisaidi näide võib välja näha umbes selline:</p> <img src='media/img/example_website.png'>"
+    },
+    "chapter5-2": {
+      "title": "5.2 Lahendus",
+      "content": "<h1>Teeme koos, aga proovi ise ka! 🤬</h1>"
+    }
+}

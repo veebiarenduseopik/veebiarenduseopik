@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veebiarendus</title>
+    <link rel="shortcut icon" href="media/icons/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+	rel="stylesheet">
+    <script type="text/javascript" async="" src="js/script.js"></script>
+    <script src="libs/fluid.js" defer></script>
+
+</head>
+<body>
+    <canvas id="canvas" style="position: absolute;left: 0;bottom: 0;width: 100%;height: 100%;overflow: hidden;opacity: 1;pointer-events: none;"></canvas>
+
+	<div class="content-wrapper">
+
+
+
+        <section class="viewport">
+            <div class="modal_viewport">
+                <div class="dimmer"></div>
+                <div class="expanded_modal_section">
+                    <a href="#" class="modal_controls">Meist</a>
+                    <a href="#" class="modal_controls">Miks</a>
+                    <a href="#" class="modal_controls">Kasulik</a>
+
+                </div>
+                <div class="expanded_modal_section expanded_modal_section_content" data-name="Meist">
+                    <h1>Meist</h1>
+                    <p>Meie oleme Jõhvi Gümnaasiumi 11.d ja 11.f klassi õpilased Jegor Železnjak ja Kristina Yartseva</p>
+                    <p>Meie praktilise töö <strong>eesmärgiks</strong> oli <strong>luua lihtne ja arusaadav veebiõpik</strong> veebiarenduse põhimõtete kohta ning <strong>läbi viia programmeerimistunnid</strong> veebiarendusest, et <strong>anda õpilastele uusi oskusi ja laiendada nende silmaringi</strong> selles valdkonnas.</p>
+                    <a href="#" class="close_content">Sulge</a>
+                </div>
+                <div class="expanded_modal_section expanded_modal_section_content" data-name="Miks">
+                    <h1>Miks</h1>
+                    <p><strong>Oleme märganud, et meie koolis informaatika kursusel ei käsitleta veebilehtede loomist üksikasjalikumalt</strong>, kuigi see on üsna huvitav ka kasulik teema teadmiseks. Sellepärast proovime selle olukorda parandada meie koolis.</p>
+                    <a href="#" class="close_content">Sulge</a>
+
+                </div>
+                <div class="expanded_modal_section expanded_modal_section_content" data-name="Kasulik">
+                    <h1>Kasulik</h1>
+                    <p>Õppematerjali koostamiseks kasutasime oma teadmisi, kuid täpsema teabe edastamseks kasutasime ka järgmisi allikaid. Need võivad olla ka teile kasulikud, kui soovite veebiarendust põhjalikumalt uurida (peamised on eraldatud punasega):</p>
+                    <p><a href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/"><strong>MDN Web Docs</strong></a> 
+                        <a href="https://www.w3schools.com/"><strong>W3Schools</strong></a> 
+                        <a href="https://github.com/microsoft/Web-Dev-For-Beginners">Microsoft. WebDev for beginners</a> 
+                        <a href="https://web.dev/learn/">Web.dev</a> 
+                        <a href="https://skillbox.ru/media/code/"><strong>Skillbox Media</strong></a> 
+                        <a href="https://aws.amazon.com/ru/what-is/">Amazon Web Services</a> 
+                        <a href="https://blog.skillfactory.ru/glossary/">Skillfactory Media</a> 
+                        <a href="https://practicum.yandex.ru/blog/">Yandex.Practicum</a> 
+                        </p>
+                        <a href="#" class="close_content" data->Sulge</a>
+
+                    </div>
+            </div>
+    
+            <header>
+                <div class="header-section">
+                    <div class="header-section-1">
+                        <a class="nav_link" onclick="openNav();return false;">
+                            <span class="material-icons" aria-hidden="true">menu</span>
+                        </a>
+                    </div>
+
+                    <div class="header-section-2">
+                        <a href="/">
+                            <h1>VEEBIARENDUS</h1>
+                        </a>
+                    </div>
+
+                    <div class="header-section-3" style="word-spacing: 10px;">
+                        <a href="book.html" class="nav_link" style="letter-spacing: 0 !important;font-size: 24px; color: white;">
+                            <span class="material-icons" aria-hidden="true">search</span>
+                        </a>
+
+                    </div>
+                    
+                    <div class="navigation">
+                        <a href="/" class="material-icons home">home</a>
+                        <span class="material-icons" aria-hidden="true">chevron_right</span>
+                        <a href="/">Avaleht</a>
+                    </div>
+                    </div>
+                </header>					
+    
+            <div class="landing" id="mkpt">
+                <div class="tagline">
+                    <h2>Omanda endale oskused, et luua oma veebisaite.</h2>
+                    <h3>Meie algajatele mõeldud juhend õpetab teile kõike, mida peate teadma, et luua veebisait, mille üle olete uhke.</h3>
+                </div>
+                <div class="showcase">
+                    <div class="showcase_img_wrap">
+                        <img src="media/img/showcase1.jpg" alt="" class="showcase_img" >
+                        <img src="media/img/showcase2.jpg" alt="" class="showcase_img">
+                        <img src="media/img/showcase3.jpg" alt="" class="showcase_img">
+                        <img src="media/img/showcase4.jpg" alt="" class="showcase_img">
+
+                    </div>
+
+                </div>
+
+                <div class="actions">
+                    <a href="book.html" class="start">ALUSTA ÕPPIMIST</a>
+                </div>
+            </div>
+            
+    
+    
+        </section>
+    
+
+    
+    </div>
+</body>
+</html>

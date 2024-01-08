@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Veebiarendus</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/book.css">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+	rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/book.js" defer></script>
+    <link rel="stylesheet" href="css/atom-one-dark.min.css">
+    <script src="libs/highlight.min.js"></script>
+    <script>0</script>
+</head>
+<body>
+
+	<div class="content-wrapper">
+        <section class="viewport">
+            <header>
+                <div class="header-section">
+                    <div class="header-section-1">
+                        <a class="nav_link" onclick="openNav('.book_navigation');return false;">
+                            <span class="material-icons" aria-hidden="true">menu</span>
+                        </a>
+                    </div>
+
+                    <div class="header-section-2">
+                        <h1>VEEBIARENDUS</h1>
+                    </div>
+
+                    <div class="header-section-3" style="word-spacing: 10px;">
+
+                        
+                        <a class="nav_link" onclick="openNav('.search_wrapper');return false;" style="letter-spacing: 0 !important;font-size: 24px; color: white;">
+                            <span class="material-icons" aria-hidden="true">search</span>
+                        </a>
+
+                    </div>
+                    
+                    <div class="navigation">
+
+                            <a href="/" class="material-icons home">home</a>
+                            <span class="material-icons" aria-hidden="true">chevron_right</span>
+                            <p  class="current_chapter">1.1 Sissejuhatus</p>
+
+                    </div>
+                    </div>
+                </header>					
+    
+            <div class="landing" id="mkpt">
+                <div class="search_wrapper">
+                    <div>
+                        <div class="input-wrapper">
+                            <div class="input-icon"><span class="material-icons" style="font-size: 24px;line-height: 47px;">search</span>
+                            </div>
+                            <input type="text" class="search" style="text-align: right; border-left: 0;" placeholder="Otsi kõike">
+                        </div>
+                        <div class="search_results">
+
+                        </div>
+                    </div>
+
+                    <div class="dimmer" onclick="openNav('.search_wrapper')"></div>
+
+
+                </div>
+
+                <div class="book_paragraph">
+
+                </div>
+                <div class="book_navigation">
+                    <div class="chapters_num nav">
+                        <ul style=" list-style: none;white-space: nowrap;" class="chapters_choose">
+                            <li class="active">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                    </div>
+                    <div class="chapters">
+                        <ul class="chapter_nav_ul"></ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+            
+    
+        </section>
+    
+
+    
+    </div>
+
+
+</body>
+</html>
+
+
+
