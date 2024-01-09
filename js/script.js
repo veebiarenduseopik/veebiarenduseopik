@@ -10,16 +10,16 @@ const dimmer = document.querySelector(".dimmer")
 const sections = document.querySelectorAll(".expanded_modal_section")
 const close_content = document.querySelectorAll(".close_content")
 
-let current = '';
+
+// go back
 close_content.forEach(function (item, idx) {
    item.addEventListener('click', function () {
       dimmer.classList.toggle('active')
       setTimeout(() => {
-         sections[0].classList.toggle("hidden")
-         current.classList.toggle("hidden")
+         sections[0].scrollIntoView({ block: "end", inline: "nearest" });
          dimmer.classList.toggle('active')
       }, 300)
-      return false;
+
    });
 });
 
@@ -28,11 +28,8 @@ modal_controls.forEach(function (item, idx) {
    item.addEventListener('click', function () {
       dimmer.classList.toggle('active')
       setTimeout(() => {
-         sections.forEach(function (item) {
-            item.classList.toggle("hidden")
-         });      dimmer.classList.toggle('active')
-         current = document.querySelector(`[data-name="${item.innerHTML}"]`);
-         current.classList.remove("hidden")
+         document.querySelector(`[data-name="${item.innerHTML}"]`).scrollIntoView({ block: "end", inline: "nearest" });
+         dimmer.classList.toggle('active')
       }, 300)
    });
 });
