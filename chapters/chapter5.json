@@ -1,7 +1,7 @@
 {
     "chapter5-1": {
       "title": "5.1 Ülesanne",
-      "content": "<h1>5.1 Ülesanne</h1> <p>Liigume nüüd meie tunni praktilise poole juurde - omandatud teadmisi kasutades, peame tegema veebilehe kulinaarsete retseptidega. Valmis veebisaidi näide võib välja näha umbes selline:</p> <img src='media/img/example_website.png'> <p>Pildi link: <a href='https://www.mdanderson.org/images/publications/focused-on-health/2019/web_healthy_cooking_1376x774.png.resize.702.404.jpg'>https://www.mdanderson.org/images/publications/focused-on-health/2019/web_healthy_cooking_1376x774.png.resize.702.404.jpg</a></p>"
+      "content": "<h1>5.1 Ülesanne</h1> <p>Liigume nüüd meie tunni praktilise poole juurde - omandatud teadmisi kasutades, peame tegema veebilehe kulinaarsete retseptidega. Valmis veebisaidi näide võib välja näha umbes selline:</p> <img src='media/img/example_website.png'> <p>Pildi link: <a href='https://www.mdanderson.org/images/publications/focused-on-health/2019/web_healthy_cooking_1376x774.png.resize.702.404.jpg'>Parem klõps ja kopeeri link</a></p>"
     },
     "chapter5-2": {
       "title": "5.2 Lahendus",
